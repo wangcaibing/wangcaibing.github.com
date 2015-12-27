@@ -1,0 +1,2097 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=x-cp20936">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>能量高效的传感器网络空间范围聚集</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:黑体;
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:OpenSymbol;}
+@font-face
+	{font-family:楷体_GB2312;}
+@font-face
+	{font-family:\00B7s\00B2\00D3\00A9ú\00C5é;}
+@font-face
+	{font-family:"Monotype Sorts";}
+@font-face
+	{font-family:"DejaVu Sans";}
+@font-face
+	{font-family:仿宋_GB2312;}
+@font-face
+	{font-family:仿宋;
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"\@仿宋";
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:"\@黑体";
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:"\@\00B7s\00B2\00D3\00A9ú\00C5é";}
+@font-face
+	{font-family:"\@楷体_GB2312";}
+@font-face
+	{font-family:"\@仿宋_GB2312";}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+h1
+	{margin-top:8.0pt;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	text-indent:0cm;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	font-size:10.5pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;}
+h2
+	{mso-style-link:"标题 2 Char";
+	margin-top:1.25pt;
+	margin-right:0cm;
+	margin-bottom:1.25pt;
+	margin-left:0cm;
+	text-indent:0cm;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;}
+h3
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	font-size:10.5pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;}
+h4
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:0cm;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:normal;}
+h5
+	{margin-top:14.0pt;
+	margin-right:0cm;
+	margin-bottom:14.5pt;
+	margin-left:50.4pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-50.4pt;
+	line-height:156%;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h6
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.2pt;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.2pt;
+	margin-left:64.8pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-64.8pt;
+	line-height:133%;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.2pt;
+	margin-left:72.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-72.0pt;
+	line-height:133%;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.2pt;
+	margin-left:79.2pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-79.2pt;
+	line-height:133%;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:13.35pt;
+	line-height:130%;
+	layout-grid-mode:char;
+	punctuation-wrap:simple;
+	font-size:7.5pt;
+	font-family:"Times New Roman",serif;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"批注文字 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	layout-grid-mode:char;
+	punctuation-wrap:simple;
+	border:none;
+	padding:0cm;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{margin-top:7.6pt;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Arial",sans-serif;}
+span.MsoFootnoteReference
+	{font-family:"Monotype Sorts";
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	vertical-align:baseline;}
+span.MsoEndnoteReference
+	{vertical-align:super;}
+p.MsoList, li.MsoList, div.MsoList
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:10.0pt;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	font-size:14.0pt;
+	font-family:"DejaVu Sans",sans-serif;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:10.0pt;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{margin-top:16.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	punctuation-wrap:simple;
+	font-size:18.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{color:navy;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+em
+	{color:#CC0033;
+	font-weight:normal;
+	font-style:normal;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	background:navy;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:宋体;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"批注框文本 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+span.WW-Absatz-Standardschriftart1
+	{mso-style-name:WW-Absatz-Standardschriftart1;}
+span.2Char
+	{mso-style-name:"标题 2 Char";
+	mso-style-link:"标题 2";
+	font-family:黑体;}
+span.Char
+	{mso-style-name:"正文文本 Char";
+	font-family:宋体;}
+span.a
+	{mso-style-name:项目符号;
+	font-family:OpenSymbol;}
+span.datatitle1
+	{mso-style-name:datatitle1;
+	color:#10619F;
+	font-weight:bold;}
+span.Char0
+	{mso-style-name:"摘要 Char";
+	mso-style-link:摘要;
+	font-family:楷体_GB2312;
+	layout-grid-mode:line;}
+span.CharChar12
+	{mso-style-name:" Char Char12";
+	font-family:\00B7s\00B2\00D3\00A9ú\00C5é;}
+span.DefaultParagraphFont
+	{mso-style-name:"Default Paragraph Font";}
+span.WW8Num1z2
+	{mso-style-name:WW8Num1z2;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	font-style:normal;}
+span.CharChar11
+	{mso-style-name:" Char Char11";
+	font-family:宋体;}
+span.WW-Absatz-Standardschriftart
+	{mso-style-name:WW-Absatz-Standardschriftart;}
+span.mediumtext1
+	{mso-style-name:medium_text1;}
+span.shorttext1
+	{mso-style-name:short_text1;}
+span.WW-
+	{mso-style-name:WW-默认段落字体;}
+span.Char1
+	{mso-style-name:"批注框文本 Char";
+	mso-style-link:批注框文本;}
+span.Char2
+	{mso-style-name:"关键词 Char";
+	mso-style-link:关键词;
+	font-family:楷体_GB2312;
+	layout-grid-mode:line;}
+span.KeywordsChar
+	{mso-style-name:"Key words Char";
+	mso-style-link:"Key words";
+	font-family:楷体_GB2312;
+	layout-grid-mode:line;}
+span.WW-1
+	{mso-style-name:WW-默认段落字体1;}
+span.WW8Num3z0
+	{mso-style-name:WW8Num3z0;}
+span.WW8Num4z2
+	{mso-style-name:WW8Num4z2;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	font-style:normal;}
+span.Char3
+	{mso-style-name:"批注文字 Char";
+	mso-style-link:批注文字;}
+span.Absatz-Standardschriftart
+	{mso-style-name:Absatz-Standardschriftart;}
+span.AbstractChar
+	{mso-style-name:"Abstract Char";
+	mso-style-link:Abstract;
+	font-family:楷体_GB2312;}
+span.a0
+	{mso-style-name:编号字符;}
+span.1Char
+	{mso-style-name:"脚注文本1 Char";
+	mso-style-link:脚注文本1;
+	font-family:宋体;}
+span.WW-Absatz-Standardschriftart11
+	{mso-style-name:WW-Absatz-Standardschriftart11;}
+span.CharChar10
+	{mso-style-name:" Char Char10";
+	font-family:黑体;}
+span.WW8Num4z1
+	{mso-style-name:WW8Num4z1;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;
+	font-style:normal;}
+span.WW-Absatz-Standardschriftart111
+	{mso-style-name:WW-Absatz-Standardschriftart111;}
+span.WW8Num1z0
+	{mso-style-name:WW8Num1z0;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;
+	font-style:normal;}
+span.WW8Num1z1
+	{mso-style-name:WW8Num1z1;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;
+	font-style:normal;}
+span.WW8Num4z0
+	{mso-style-name:WW8Num4z0;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;
+	font-style:normal;}
+p.a1, li.a1, div.a1
+	{mso-style-name:表名;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.DepartCorrespond, li.DepartCorrespond, div.DepartCorrespond
+	{mso-style-name:"Depart\.Correspond";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:3.3pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-3.3pt;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;}
+p.a2, li.a2, div.a2
+	{mso-style-name:致谢;
+	margin-top:5.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.Textof, li.Textof, div.Textof
+	{mso-style-name:"Text of 中文参考文献";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:12.9pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-12.9pt;
+	line-height:13.0pt;
+	font-size:7.5pt;
+	font-family:"Times New Roman",serif;}
+p.Keywords, li.Keywords, div.Keywords
+	{mso-style-name:"Key words";
+	mso-style-link:"Key words Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:14.5pt;
+	margin-left:31.6pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-31.6pt;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	layout-grid-mode:line;}
+p.1, li.1, div.1
+	{mso-style-name:脚注文本1;
+	mso-style-link:"脚注文本1 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:14.85pt;
+	line-height:130%;
+	layout-grid-mode:char;
+	punctuation-wrap:simple;
+	font-size:7.5pt;
+	font-family:"Times New Roman",serif;}
+p.a3, li.a3, div.a3
+	{mso-style-name:定理;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:10.0pt;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.a4, li.a4, div.a4
+	{mso-style-name:目录;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.a5, li.a5, div.a5
+	{mso-style-name:首页页眉;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	layout-grid-mode:char;
+	punctuation-wrap:simple;
+	border:none;
+	padding:0cm;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.a6, li.a6, div.a6
+	{mso-style-name:单位;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:3.5pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-3.5pt;
+	font-size:8.5pt;
+	font-family:"Times New Roman",serif;}
+p.Reference, li.Reference, div.Reference
+	{mso-style-name:Reference;
+	margin-top:14.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.a7, li.a7, div.a7
+	{mso-style-name:分类号;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:16.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.a8, li.a8, div.a8
+	{mso-style-name:中文参考文献;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.a9, li.a9, div.a9
+	{mso-style-name:摘要;
+	mso-style-link:"摘要 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	layout-grid-mode:line;}
+p.aa, li.aa, div.aa
+	{mso-style-name:框内容;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:10.0pt;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.Date1, li.Date1, div.Date1
+	{mso-style-name:Date1;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:3.3pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-3.3pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.Title, li.Title, div.Title
+	{mso-style-name:Title;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	font-size:14.0pt;
+	font-family:"DejaVu Sans",sans-serif;}
+p.DepartCorrespondhttp, li.DepartCorrespondhttp, div.DepartCorrespondhttp
+	{mso-style-name:"Depart\.Correspond\.http";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:3.3pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-3.3pt;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;}
+p.TextofReference, li.TextofReference, div.TextofReference
+	{mso-style-name:"Text of Reference";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:20.95pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-3.95pt;
+	line-height:13.0pt;
+	font-size:7.5pt;
+	font-family:"Times New Roman",serif;}
+p.ab, li.ab, div.ab
+	{mso-style-name:关键词;
+	mso-style-link:"关键词 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:21.45pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-21.45pt;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	layout-grid-mode:line;}
+p.ac, li.ac, div.ac
+	{mso-style-name:文前文本;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	layout-grid-mode:line;
+	font-weight:bold;}
+p.TextofReference1, li.TextofReference1, div.TextofReference1
+	{mso-style-name:"Text of Reference 1";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:13.0pt;
+	font-size:7.5pt;
+	font-family:"Times New Roman",serif;}
+p.10, li.10, div.10
+	{mso-style-name:标题1;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	page-break-after:avoid;
+	layout-grid-mode:char;
+	punctuation-wrap:simple;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.ad, li.ad, div.ad
+	{mso-style-name:证明;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:10.0pt;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.ae, li.ae, div.ae
+	{mso-style-name:作者;
+	margin-top:8.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	punctuation-wrap:simple;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;}
+p.Abstract, li.Abstract, div.Abstract
+	{mso-style-name:Abstract;
+	mso-style-link:"Abstract Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.Information, li.Information, div.Information
+	{mso-style-name:Information;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.Textof0, li.Textof0, div.Textof0
+	{mso-style-name:"Text of 中文参考文献１";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:12.9pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-12.9pt;
+	line-height:13.0pt;
+	font-size:7.5pt;
+	font-family:"Times New Roman",serif;}
+p.Name, li.Name, div.Name
+	{mso-style-name:Name;
+	margin-top:11.0pt;
+	margin-right:0cm;
+	margin-bottom:9.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.af, li.af, div.af
+	{mso-style-name:人名;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:10.5pt;
+	font-family:"Times New Roman",serif;}
+p.Title1, li.Title1, div.Title1
+	{mso-style-name:Title1;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	page-break-after:avoid;
+	layout-grid-mode:char;
+	punctuation-wrap:simple;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.11, li.11, div.11
+	{mso-style-name:样式1;
+	margin-top:1.25pt;
+	margin-right:0cm;
+	margin-bottom:1.25pt;
+	margin-left:0cm;
+	text-indent:0cm;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.Correspond, li.Correspond, div.Correspond
+	{mso-style-name:Correspond;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:3.3pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-3.3pt;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.25pt 841.85pt;
+	margin:73.7pt 2.0cm 73.7pt 2.0cm;
+	layout-grid:15.6pt 0pt;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:595.25pt 841.85pt;
+	margin:73.7pt 2.0cm 73.7pt 2.0cm;
+	layout-grid:15.6pt;}
+div.WordSection2
+	{page:WordSection2;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+body {
+	background-image: url(%E8%83%8C%E6%99%AF.jpg);
+	background-color: #FFF;
+}
+-->
+</style>
+
+</head>
+
+<body lang=ZH-CN link=navy vlink="#954F72" style='text-justify-trim:
+punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt 0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:22.0pt;font-family:黑体'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L(k)-index</span><span
+style='font-size:22.0pt;font-family:黑体'>：一种支持标签路径的高效<span lang=EN-US>k</span>双拟结构索引</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:16.0pt;font-family:仿宋'>
+</span><span style='font-size:16.0pt;font-family:仿宋'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;李晓光<sup><span lang=EN-US>1</span>）<span
+lang=EN-US>&nbsp;&nbsp; </span></sup>宋宝燕<sup><span lang=EN-US>1</span>）</sup><span
+lang=EN-US>&nbsp; </span>于戈<sup><span lang=EN-US>2</span>）</sup><span
+lang=EN-US>&nbsp; </span>王大玲<sup><span lang=EN-US>2</span>）</sup></span></p>
+
+<p class=MsoNormal><sup><span lang=EN-US style='font-size:16.0pt;font-family:
+仿宋'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></sup><sup><span lang=EN-US style='font-size:7.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1</span></sup><sup><span
+style='font-size:7.5pt;font-family:宋体'>）</span></sup><span style='font-size:
+7.5pt;font-family:宋体'>（辽宁大学信息学院<span lang=EN-US>&nbsp;&nbsp; </span>沈阳<span
+lang=EN-US>&nbsp; 110036</span>）</span></p>
+
+<p class=MsoNormal style='text-indent:105.0pt'><sup><span lang=EN-US
+style='font-size:7.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2</span></sup><sup><span style='font-size:7.5pt;font-family:宋体'>）</span></sup><span
+style='font-size:7.5pt;font-family:宋体'>（东北大学信息科学与工程学院<span lang=EN-US>&nbsp; </span>沈阳<span
+lang=EN-US>&nbsp; 110004</span>）</span></p>
+
+<p class=MsoNormal><span style='font-family:黑体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;摘<span lang=EN-US>&nbsp; </span>要</span><span
+lang=EN-US style='font-family:宋体'>&nbsp; </span><span style='font-family:宋体'>针对基于<span
+lang=EN-US>k</span>双拟的结构索引创建和更新低效问题、查询结果重复验证问题以及标签路径不可获得性问题，提出了一种新的结构索引<span
+lang=EN-US>L(k)-index.L(k)-index</span>通过引入标签路径，在创建时无须<span lang=EN-US>k</span>次遍历原数据，并采取批量更新策略，大大提高索引创建和更新的效率，而在空间上仅有很小增加<span
+lang=EN-US>.</span>对于长度大于<span lang=EN-US>k+1</span>的路径查询，<span lang=EN-US>L(k)-index</span>无须访问原数据进行验证，并支持批量节点的标签路径获得，通过大量实验表明，同<span
+lang=EN-US>A(k)-index</span>相比，<span lang=EN-US>L(k)-index</span>创建时间平均提高<span
+lang=EN-US>66.7%</span>，查询处理时间效率平均提高<span lang=EN-US>68.9%</span>，批量更新效率平均每节点提高<span
+lang=EN-US>58.8%</span>，而空间仅增加<span lang=EN-US>22.5%.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关键词</span><span lang=EN-US>&nbsp;
+</span><span lang=EN-US style='font-family:宋体'>k</span><span style='font-family:
+宋体'>双拟结构索引；<span lang=EN-US>XML</span>索引；标签路径；<span lang=EN-US>XML</span>查询；<span
+lang=EN-US>XML</span>检索</span></p>
+
+<p class=MsoNormal><span style='font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中图法分类号</span> <span lang=EN-US>&nbsp;TP393&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span lang=EN-US>DOI</span><span style='font-family:宋体'>号：</span><span
+lang=EN-US>&nbsp;&nbsp; 10.3724/SP.J.1016.2014.01732</span></p>
+
+<p class=MsoNormal style='text-indent:21.75pt'><b><span lang=EN-US
+style='font-size:14.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+L(k)-index: An Efficient k-bisimilarity</span></b></p>
+
+<p class=MsoNormal style='text-indent:21.75pt'><b><span lang=EN-US
+style='font-size:14.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Based&nbsp; Structural Summary&nbsp; Suporting&nbsp; Label&nbsp; Path</span></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+LI Xiao-Guang<sup>1</sup></span><sup><span style='font-size:10.5pt;font-family:
+宋体'>）</span></sup><sup><span lang=EN-US style='font-size:10.5pt'>&nbsp;&nbsp; </span></sup><span
+lang=EN-US style='font-size:10.5pt'>SONG&nbsp; Bao-Yan<sup>1</sup></span><sup><span
+style='font-size:10.5pt;font-family:宋体'>）</span></sup><sup><span lang=EN-US
+style='font-size:10.5pt'>&nbsp;&nbsp; </span></sup><span lang=EN-US
+style='font-size:10.5pt'>YU<sup> </sup>Ge<sup>2</sup></span><sup><span
+style='font-size:10.5pt;font-family:宋体'>）</span></sup><span lang=EN-US
+style='font-size:10.5pt'>&nbsp;&nbsp; WANG&nbsp; Da-Ling<sup>2</sup></span><sup><span
+style='font-size:10.5pt;font-family:宋体'>）</span></sup></p>
+
+<p class=MsoNormal style='text-indent:21.75pt'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span lang=EN-US style='font-size:7.5pt'>&nbsp;<sup>1</sup></span><sup><span
+style='font-size:7.5pt;font-family:宋体'>）</span></sup><span lang=EN-US
+style='font-size:7.5pt'>(School&nbsp; of&nbsp; Information, Liaoning&nbsp;
+University , Shen yang 110036)&nbsp;&nbsp; </span></p>
+
+<p class=MsoNormal style='text-indent:11.25pt'><sup><span lang=EN-US
+style='font-size:7.5pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2</span></sup><sup><span style='font-size:7.5pt;font-family:宋体'>）</span></sup><span
+lang=EN-US style='font-size:7.5pt'>(School&nbsp; of&nbsp; Information&nbsp;
+Science and Engineering ,&nbsp; Northeastern University, Shen&nbsp;
+yang&nbsp;&nbsp; 110004)</span></p>
+
+<p class=MsoNormal style='text-indent:15.8pt'><b><span lang=EN-US
+style='font-size:10.5pt'>&nbsp;&nbsp;&nbsp;&nbsp;Abstract</span></b><span lang=EN-US style='font-size:
+10.5pt'>&nbsp;&nbsp; </span><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+lang=EN-US style='font-size:10.5pt'>L(k)-index,as a novel&nbsp;
+structural&nbsp; summary,is proposed to address the issues&nbsp; of the low
+efficiency of summary&nbsp; constructing and updating, the re-validation of
+query results and the absence of&nbsp; label path for the k-bisimilsrity&nbsp;
+summaries,With the label path introduced,L(k)-index doesn’t require scanning
+the original XML data k times for the summary constructing,and updating is
+improved greatly with the small increase of space overhead. For
+L(k)-index,there’s no re-validation of original data for greater than k+1
+length query ,and the label path of nodes can be retrieved on batch.With the
+extensive experiments,L(k)-index compared with A(k)-index averagely achieves
+66.7% improvement of construction,68.9% improvement of query processing,58.8%
+of improvement of updating per node,while suffering from 22.5 space increase.</span></p>
+
+<p class=MsoNormal style='text-indent:15.8pt'><b><span lang=EN-US
+style='font-size:10.5pt'>&nbsp;&nbsp;&nbsp;&nbsp;Key words</span></b><span lang=EN-US>&nbsp;&nbsp; </span><span
+lang=EN-US style='font-size:10.5pt'>k-bisimilarity based structural summary;XML
+index;label path; XML query;XML retrieval</span></p>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'>
+
+<p class=MsoHeader align=left style='text-align:left'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=MsoPageNumber><span lang=zh-CN>3</span></span></p>
+
+</div>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:18.0pt;
+layout-grid-mode:char;punctuation-wrap:hanging;text-autospace:ideograph-numeric'><span
+lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:18.0pt;
+layout-grid-mode:char;punctuation-wrap:hanging;text-autospace:ideograph-numeric'><span
+lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:9.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:黑体'>1&nbsp;
+</span><span style='font-size:14.0pt;font-family:黑体'>引言</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp; </span><span style='font-size:10.5pt;
+font-family:宋体'>在<span lang=EN-US>XML</span>数据库领域中，作为提高<span lang=EN-US>XML</span>查询效率的重要技术只一，结构索引（<span
+lang=EN-US>structural summary</span>）一直以来是研究人员所关注的研究方向<span lang=EN-US>.</span>结构索引通过对路径压缩，建立一个远小于原<span
+lang=EN-US>XML</span>数据的图结构，并通过遍历索引来提高查询中路径信息的处理效率。目前，典型结构索引有<span lang=EN-US>DataGuide<sup>[1]</sup></span>、<span
+lang=EN-US>1-index<sup>[2]</sup></span>、<span lang=EN-US>A(k)-index<sup>[3]</sup></span>、<span
+lang=EN-US>D(k)-index<sup>[4]</sup></span>等<span lang=EN-US>.1-index</span>、<span
+lang=EN-US>A(k)-index</span>和<span lang=EN-US>D(k)-index</span>均为基于<i><span
+lang=EN-US>k</span></i>双拟<span lang=EN-US>(k-bisimilarity)</span>的结构索引，索引通过对局部路径信息合并，大大降低<span
+lang=EN-US>DataGuide</span>索引节点冗余。当查询路径长度大于<i><span lang=EN-US>k</span></i>时，基于<i><span
+lang=EN-US>k</span></i>双拟的结构索引是非准确的必须在原<span lang=EN-US>XML</span>数据上进行验证<span
+lang=EN-US>.</span>目前方法在索引构建时对索引节点分裂要求能够判断任意一对节点的父子关系，导致频繁遍历原数据。特别是对于大规模<span
+lang=EN-US>XML</span>数据来说，其创建时间远远超过用户容忍程度<span lang=EN-US>.</span>另外，随着<span
+lang=EN-US>XML</span>数据信息获取技术的发展，特别是在<span lang=EN-US>XML</span>检索和<span
+lang=EN-US>XML</span>非完全结构查询中，要求结构索引在返回给定路径下的节点集合的同时，还需要返回节点的完全标签路径<span
+lang=EN-US>.</span>然而迄今为止，基于<span lang=EN-US>k</span>双拟的结构索引设计目的是提高路径查询效率，并不支持节点完全标签路径的获得<span
+lang=EN-US>.PE</span>索引<sup><span lang=EN-US>[5]</span></sup>是我们前期工作提出的一种基于树模型的结构索引，其设计目标是在支持路径查询的基础上，同时支持标签路径获得和节点<span
+lang=EN-US>k</span>祖先的计算。但由于<span lang=EN-US>PE</span>索引借鉴了<span lang=EN-US>Strong
+Dataguide</span>和<span lang=EN-US> 1-index </span>的设计思想，导致大量冗余现象的存在<span
+lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>针对目前基于<span lang=EN-US>k</span>双拟的结构索引创建和更新低效问题、查询结果重验证问题以及标签路径不可获得性问题，本文提出一种新的基于<i><span
+lang=EN-US>k</span></i>双拟结构索引<span lang=EN-US>L(k)-index.</span>主要贡献有：（<span
+lang=EN-US>1</span>）通过引入标签路径，使得<span lang=EN-US>L(k)-index</span>在<span
+lang=EN-US>L(k-1)-index</span>基础上直接获得，无须<span lang=EN-US>k</span>次遍历原<span
+lang=EN-US>XML</span>数据；（<span lang=EN-US>2</span>）采用批量计算节点后继和批量更新策略，大大提高索引创建和更新效率；（<span
+lang=EN-US>3</span>）当对于长度大于<i><span lang=EN-US>k+1</span></i>的路径查询时，<span
+lang=EN-US>L(k)-index</span>无须访问原数据进行验证，从而大幅提高查询处理效率，通过大量实验，同<span lang=EN-US>A(k)-index</span>相比，<span
+lang=EN-US>L(k)-index</span>的创建时间平均提高了<span lang=EN-US>66.7%.</span>查询处理时间效率平均提高了<span
+lang=EN-US>68.9%,</span>而空间仅增加了<span lang=EN-US>22.5%</span>，批量更新效率平均每节点提高<span
+lang=EN-US>58.8%.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>本文第<span lang=EN-US>2</span>节介绍典型的基于<i><span lang=EN-US>k</span></i>双拟结构索引<span
+lang=EN-US>A(k)-index</span>并详细分析其存在的不足；第<span lang=EN-US>3</span>节给出<span
+lang=EN-US>L(k)-index</span>的结构、性质以及查询处理方法；第<span lang=EN-US>4</span>节给出<span
+lang=EN-US>L(k)-index</span>创建方法和索引更新方法；第<span lang=EN-US>5</span>节在标准数据集和实际数据集上测试<span
+lang=EN-US>L(k)-index</span>的性能，并同<span lang=EN-US>A(k)-index</span>进行试验比较；第<span
+lang=EN-US>6</span>节给出相关工作；最后，第<span lang=EN-US>7</span>节是全文总结<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:黑体'>2&nbsp;&nbsp;
+</span><span style='font-size:14.0pt;font-family:黑体'>基于<span lang=EN-US>k</span>双拟的结构索引</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>目前典型的基于<span lang=EN-US>k</span>双拟的结构索引有<span lang=EN-US>1-index</span>，<span
+lang=EN-US>A(k)-index</span>和<span lang=EN-US>D(k)-index.</span>实际上，当<span
+lang=EN-US>k</span>达到足够大时，<span lang=EN-US>A(k)-index</span>等价于<span
+lang=EN-US>1(k)-index</span>，而<span lang=EN-US>D(k)-index</span>考虑不同<span
+lang=EN-US>k</span>值，但结构上仍类似于<span lang=EN-US>A(k)-index.</span>这里我们以<span
+lang=EN-US>A(k)-index</span>为例对基于<i><span lang=EN-US>k</span></i>双拟的结构索引进行阐述并分析其存在问题<span
+lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>定义<span lang=EN-US>1.&nbsp; <i>k</i></span>双拟（<span lang=EN-US><span
+style='position:relative;top:2.0pt'><img width=13 height=13 id="图片 8"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image001.png"></span><sup>k</sup>).</span>给定<span
+lang=EN-US>XML</span>文档节点<span lang=EN-US>u</span>和<span lang=EN-US>v.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(1)</span><span style='font-size:10.5pt;font-family:宋体'>如果<i><span lang=EN-US>u</span></i>和<i><span
+lang=EN-US>v</span></i>的标签相同，则<i><span lang=EN-US>u</span></i><span lang=EN-US><span
+style='position:relative;top:2.0pt'><img width=13 height=13
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image001.png"></span><sup>0</sup>v.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(2)</span><span style='font-size:10.5pt;font-family:宋体'>如果<i><span lang=EN-US>u</span></i><span
+lang=EN-US><span style='position:relative;top:2.0pt'><img width=13 height=13
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image001.png"></span><i><sup>k-1</sup>v</i></span>，且对所有<i><span
+lang=EN-US>u</span></i>父节点<i><span lang=EN-US>u</span><sup>，</sup></i>，存在<i><span
+lang=EN-US>v</span></i>父节点<i><span lang=EN-US>v</span><sup>，</sup></i>满足<i><span
+lang=EN-US>u</span><sup>，</sup><span lang=EN-US><span style='position:relative;
+top:2.0pt'><img width=13 height=13
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image001.png"></span><sup>k-1</sup>v</span><sup>，</sup></i>，反之亦然，则<i><span
+lang=EN-US>u<span style='position:relative;top:2.0pt'><img width=13 height=13
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image001.png"></span><sup>k</sup>v.</span></i></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>A(k)-index</span><span
+style='font-size:10.5pt;font-family:宋体'>为一个图，图中节点为索引节点，其代表符合<span lang=EN-US>k</span>双拟关系的节点集合<span
+lang=EN-US>.</span>在两个索引节点中的节点，如果存在任意两个节点为父子关系，则这两个索引节点存在一条边<span lang=EN-US>.A(k)-index</span>存在以下问题：（<span
+lang=EN-US>1</span>）当查询标签路径长度小于或等于<i><span lang=EN-US>k+1</span></i>时，<span
+lang=EN-US>A(k)-index</span>是准确的（<span lang=EN-US>precise</span>）和安全的（<span
+lang=EN-US>safe</span>），而当长度大于<i><span lang=EN-US>k+1</span></i>时，是安全的但非准确的，也就是说，必须遍历原数据以验证结果；（<span
+lang=EN-US>2</span>）<span lang=EN-US>A(k)-index</span>的构建时从<i><span lang=EN-US>k=0</span></i>开始，对每个索引节点中的节点，计算直接后继，并以此分裂其他索引节点，直至不存在分裂或达到<i><span
+lang=EN-US>k</span></i>值，其时间复杂度为<i><span lang=EN-US>O((k+1)n)</span></i>，<i><span
+lang=EN-US>n</span></i>为节点数<span lang=EN-US>.</span>对于大规模文档，索引创建时间长；（<span
+lang=EN-US>3</span>）由于对局部路径进行合并，无法通过遍历索引来获得节点的完全标签路径<span lang=EN-US>.</span>为了确定节点的完全标签路径，则必须对每个节点在原数据中验证；（<span
+lang=EN-US>4</span>）不支持索引增量更新<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>针对上述问题，本文提出一种新的基于<i><span lang=EN-US>k</span></i>双拟结构索引<span
+lang=EN-US>L(k)-index</span>，通过引入标签路径，索引在分裂时无须依次访问每个节点计算后继，而是在<span lang=EN-US>L(0)-index</span>上直接得到，并提出一种批量更新策略<span
+lang=EN-US>.</span>当对于长度大于<i><span lang=EN-US>k+1</span></i>的路径查询时，<span
+lang=EN-US>L(k)-index</span>索引无须验证即可得到准确和安全的结果<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:18.0pt'><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:黑体'>3&nbsp;
+</span><span style='font-size:14.0pt;font-family:黑体'>基于<span lang=EN-US>k</span>双拟的结构索引<span
+lang=EN-US>L(k)-index</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN-US style='font-size:10.5pt;font-family:黑体'>3.1&nbsp; </span><span
+style='font-size:10.5pt;font-family:黑体'>基本概念与定义</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>这里将<span lang=EN-US>XML</span>文档<span lang=EN-US>T</span>的数据模型定义为有向无环图<i><span
+lang=EN-US>G=(V</span>，<span lang=EN-US>E</span>，<span lang=EN-US>r</span>，</i><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=16 height=17
+id="对象 79" src="计信本1班%20%20王彩冰201411010424%20论文.files/image002.png"></span></span><i>，<span
+lang=EN-US>label</span>，<span lang=EN-US>oid</span>，<span lang=EN-US>value).V</span></i>为<i><span
+lang=EN-US>T</span></i>中节点集合，<i><span lang=EN-US>V=V<sub>n<span
+style='position:relative;top:4.0pt'><img width=15 height=19 id="对象 81"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image003.png"></span></sub>V<sub>l</sub></span>，<span
+lang=EN-US>V<sub>n</sub></span></i>为非值节点集合，<i><span lang=EN-US>V<sub>l</sub></span></i>为值节点集合<span
+lang=EN-US>.<i>E</i></span>为弧集合，其中对于节点引用关系（<span lang=EN-US>IDREF</span>，<span
+lang=EN-US>XLink</span>）称为引用弧，节点嵌套关系为父子弧。<span lang=EN-US>r</span>为根节点<span
+lang=EN-US>.<span style='position:relative;top:3.0pt'><img width=16 height=17
+id="对象 80" src="计信本1班%20%20王彩冰201411010424%20论文.files/image002.png"></span></span>为节点标签集合，<i><span
+lang=EN-US>oid</span></i>为节点唯一标识<span lang=EN-US>.<i>label</i></span>为为非值节点标签函数，即<i><span
+lang=EN-US>labelo</span>：<span lang=EN-US>oid<span style='position:relative;
+top:3.0pt'><img width=19 height=15 id="对象 83"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image004.png"></span></span></i><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=16 height=17
+id="对象 82" src="计信本1班%20%20王彩冰201411010424%20论文.files/image002.png"></span>.value</span>为值节点值函数，即<i><span
+lang=EN-US>value</span>：<span lang=EN-US>oid<span style='position:relative;
+top:3.0pt'><img width=19 height=15 id="对象 84"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image004.png"></span>string.</span></i></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:黑体'>&nbsp;&nbsp;&nbsp;
+</span><span style='font-size:10.5pt;font-family:黑体'>定义<span lang=EN-US>2.</span></span><span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span style='font-size:10.5pt;font-family:
+宋体'>节点路径。图<i><span lang=EN-US>G</span></i>中一条长度为<i><span lang=EN-US>n</span></i>的节点路径为一个节点序列（<i><span
+lang=EN-US>u<sub>1</sub></span>，<span lang=EN-US>u<sub>2</sub></span>，<span
+lang=EN-US>...</span>，<span lang=EN-US>u<sub>n</sub></span></i>），其中对任意一对相邻的节点<i><span
+lang=EN-US>u<sub>i</sub></span></i>和<i><span lang=EN-US>u<sub>i+1</sub></span></i>满足<i><span
+lang=EN-US>&lt;u<sub>i,</sub>u<sub>i+1</sub>&gt;<span style='position:relative;
+top:2.0pt'><img width=12 height=12 id="对象 85"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image005.png"></span>E.</span></i></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:黑体'>定义<span lang=EN-US>3. </span></span><span lang=EN-US>&nbsp;&nbsp;</span><span
+style='font-size:10.5pt;font-family:宋体'>标签路径<span lang=EN-US>.</span>给定一个节点路径<i>（<span
+lang=EN-US>u<sub>1</sub>,u<sub>2</sub>,...,u<sub>n</sub></span>）</i><span
+lang=EN-US>,</span>其标签路径为节点标签序列<i><span lang=EN-US>lp=(l<sub>1</sub>,l<sub>2</sub>,...,l<sub>n</sub>)</span></i>其中<i><span
+lang=EN-US>l<sub>i</sub>=label(ui),i=</span></i><span lang=EN-US>1</span><i>～<span
+lang=EN-US> n,</span></i>称<i><span lang=EN-US>lp</span></i>为节点<i><span
+lang=EN-US>u</span></i><sub><span lang=EN-US>n</span></sub>的标签路径<span
+lang=EN-US>.</span>如果<i><span lang=EN-US>u</span></i><sub><span lang=EN-US>1</span></sub><span
+lang=EN-US>=<i>r</i></span>，则称<span lang=EN-US><span style='position:relative;
+top:2.0pt'><img width=9 height=17 id="图片 17"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image006.png"></span>p</span>为节点<span
+lang=EN-US>u<sub>n</sub></span>的完全标签路径<span lang=EN-US>.</span>标签路径（<i><span
+lang=EN-US>l<sub>n-k</sub></span></i>，<i><span lang=EN-US>l<sub>n-k+1</sub></span></i>，<span
+lang=EN-US>...</span>，<i><span lang=EN-US>l<sub>n</sub></span></i>）称为节点<i><span
+lang=EN-US>u<sub>n</sub></span></i>的<i><span lang=EN-US>k</span></i>标签路径<span
+lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>如果标签路径<i><span lang=EN-US>lp</span></i>是节点路径<i><span
+lang=EN-US>np</span></i>的标签路径，则称节点路径<i><span lang=EN-US>np</span></i>匹配标签路径<i><span
+lang=EN-US>lp.</span></i>对于借点<i><span lang=EN-US>u</span></i>和标签路径<i><span
+lang=EN-US>lp</span></i>，如果存在以<i><span lang=EN-US>u</span></i>为终点的节点路径，且路径匹配<i><span
+lang=EN-US>lp</span></i>，则称节点<span lang=EN-US>u</span>匹配标签路径<i><span
+lang=EN-US>lp.</span></i></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:黑体'>3.2&nbsp;
+L(k)-index</span><span style='font-size:10.5pt;font-family:黑体'>索引结构</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-size:10.5pt;font-family:宋体'>为了能获得节点的完全标签路径，为每个索引节点分配唯一索引标识（<span
+lang=EN-US>index node ID,IID</span>），并采用<span lang=EN-US>dewey</span>编码<sup><span
+lang=EN-US>[6]</span></sup>方式为索引中标签路径进行编码<span lang=EN-US>.</span>定义<span
+lang=EN-US>L(k)-index</span>为有限无环图<span lang=EN-US>I=</span>（<span lang=EN-US>IV,IE,IID,EXT,<span
+style='position:relative;top:3.0pt'><img width=16 height=17 id="对象 76"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image002.png"></span><sup>I</sup>,<i>label</i><sub>i</sub></span>）<span
+lang=EN-US>.IV</span>为索引节点集合，<span lang=EN-US>IE</span>为弧集合，<span lang=EN-US>IID</span>为索引节点标识符集合<span
+lang=EN-US>.labeli</span>为获得索引节点标签的函数，即<i><span lang=EN-US>label</span></i><sub><span
+lang=EN-US>i</span></sub>：<span lang=EN-US>IID<span style='position:relative;
+top:3.0pt'><img width=20 height=15 id="图片 33"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image007.png"></span><span
+style='position:relative;top:3.0pt'><img width=16 height=17 id="对象 77"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image002.png"></span><sup>I</sup></span><sup>，</sup><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=16 height=17
+id="对象 78" src="计信本1班%20%20王彩冰201411010424%20论文.files/image002.png"></span><sup>I</sup></span>为索引节点标签集合。<span
+lang=EN-US>EXT</span>为索引节点的扩展集合<span lang=EN-US>.</span>给定索引节点<span lang=EN-US>A<span
+style='position:relative;top:2.0pt'><img width=13 height=13 id="图片 35"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>IV</span>，其扩展集合<i><span
+lang=EN-US>ext<sup>I</sup></span></i><sup>，</sup>（<span lang=EN-US>A</span>）<span
+lang=EN-US><span style='position:relative;top:2.0pt'><img width=13 height=13
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>EXT</span>中的索引元素<i><span
+lang=EN-US>e<span style='position:relative;top:2.0pt'><img width=13 height=13
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>ext</span></i><sup><span
+lang=EN-US>I</span>，</sup>（<span lang=EN-US>A</span>）为一个二元组（<span lang=EN-US>PID,Ne</span>），其中<span
+lang=EN-US>PID</span>为节点的完全标签路径编码集合<span lang=EN-US>.</span>完全标签路径编码（<i><span
+lang=EN-US>pid</span></i>）是由<i><span lang=EN-US>iid<span style='position:relative;
+top:2.0pt'><img width=13 height=13
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span></span></i><span
+lang=EN-US>IID</span>构成的序列，代表了节点的完全标签路径。<i><span lang=EN-US>pid</span></i>类似于<span
+lang=EN-US>dewey</span>编码，<i>即如果节点<span lang=EN-US>u</span>是节点<span lang=EN-US>v</span>的祖先，则节点<span
+lang=EN-US>u</span>的<span lang=EN-US>pid</span>为节点<span lang=EN-US>v</span>的<span
+lang=EN-US>pid</span>的前缀<span lang=EN-US>.</span>“<span lang=EN-US><span
+style='position:relative;top:7.0pt'><img width=16 height=27 id="图片 40"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image009.png"></span></span>”代表取<span
+lang=EN-US>pid</span>的长度，即序列中<span lang=EN-US>iid</span>的个数<span lang=EN-US>.</span></i><span
+lang=EN-US>Ne</span>为节点集合，<span lang=EN-US>Ne={u<span style='position:relative;
+top:2.0pt'><img width=13 height=13
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>V<sub>n</sub><span
+style='position:relative;top:7.0pt'><img width=27 height=27 id="图片 42"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image010.png"></span></span>，<span
+lang=EN-US>v<span style='position:relative;top:2.0pt'><img width=13 height=13
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>Ne</span>，<span
+lang=EN-US>u</span>，<span lang=EN-US>v</span>具有相同的<span lang=EN-US>PID}</span>，且对于任意一对节点<i><span
+lang=EN-US>u</span></i>，<span lang=EN-US>v<span style='position:relative;
+top:2.0pt'><img width=13 height=13
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>{<i><span
+style='position:relative;top:3.0pt'><img width=17 height=19 id="图片 45"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image011.png"></span><span
+style='position:relative;top:2.0pt'><img width=13 height=13
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>e</i>.Ne<i><span
+style='position:relative;top:7.0pt'><img width=25 height=27 id="图片 48"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image012.png"></span>ext<sup>I</sup></i>(A)}</span>来说，节点<i><span
+lang=EN-US>u</span></i>和<i><span lang=EN-US>v</span></i>满足<i><span lang=EN-US>k</span></i>双拟<span
+lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.5pt;font-family:宋体'>图<span
+lang=EN-US>2</span>为图<span lang=EN-US>1</span>中的<span lang=EN-US>XML</span>文档的<span
+lang=EN-US>L(k)-index</span>，其中圆圈中的字符为索引节点标签，<i><span lang=EN-US>i<sub>0</sub>~i<sub>17</sub></span></i>为索引节点的<i><span
+lang=EN-US>iid</span></i>，括号代表索引节点的扩展集合中的元素，元素包含<i><span lang=EN-US>PID</span></i>和该<i><span
+lang=EN-US>PID</span></i>下的节点集合<span lang=EN-US>.</span>以图<span lang=EN-US>2</span>中的索引节点<i>“<span
+lang=EN-US>H</span>”（<span lang=EN-US>iid=i<sub>0</sub></span>）</i>为例，其扩展集合包含了两个元素<i>（</i><span
+lang=EN-US>{<i>i</i><sub>0</sub></span><i>，<span lang=EN-US>i</span></i><sub><span
+lang=EN-US>1</span></sub><i>，<span lang=EN-US>i</span></i><sub><span
+lang=EN-US>2</span></sub><i>，<span lang=EN-US>i</span></i><sub><span
+lang=EN-US>6</span></sub><i>，<span lang=EN-US>i<sub>1</sub></span></i><sub><span
+lang=EN-US>0</span></sub><span lang=EN-US>}</span><i>，</i><span lang=EN-US>{13}</span><i>）</i>和<i>（<span
+lang=EN-US>{i</span></i><sub><span lang=EN-US>0</span></sub><i>，</i></span><i><span
+lang=EN-US>i</span></i><sub><span lang=EN-US>1</span></sub><i><span
+style='font-family:宋体'>，</span></i><i><span lang=EN-US>i<sub>2</sub></span></i><i><span
+style='font-family:宋体'>，</span></i><i><span lang=EN-US>i<sub>5</sub></span></i><i><span
+style='font-family:宋体'>，</span></i><i><span lang=EN-US>i<sub>10</sub>}</span></i><i><span
+style='font-family:宋体'>），</span></i><i><span lang=EN-US>{</span></i><span
+lang=EN-US>11<i>}</i></span><i><span style='font-family:宋体'>）</span></i><span
+style='font-family:宋体'>，其中第一个索引元素中满足该</span><span lang=EN-US>PID</span><span
+style='font-family:宋体'>且符合</span><span lang=EN-US>1</span><span
+style='font-family:宋体'>双拟关系的有</span><span lang=EN-US>{</span><span lang=EN-US
+style='font-size:10.5pt'>13</span><span lang=EN-US>}.PID</span><span
+style='font-family:宋体'>集合中有两个</span><i><span lang=EN-US>pid</span></i><span
+style='font-family:宋体'>分别代表节点</span><span lang=EN-US>13</span><span
+style='font-family:宋体'>的两条完全标签路径</span><span lang=EN-US>R.A.B.E.H</span><span
+style='font-family:宋体'>和</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'>R.A.D.G.L.E.H</span><span style='font-size:10.5pt;font-family:
+宋体'>，且<span lang=EN-US>|<i>i</i><sub>0</sub>,<i>i</i><sub>1</sub>,<i>i</i><sub>2</sub>,<i>i</i><sub>6</sub>,<i>i</i><sub>10</sub>|=5</span>，<span
+lang=EN-US>|<i>i</i><sub>0</sub></span>，<i><span lang=EN-US>i</span></i><sub><span
+lang=EN-US>1</span></sub>，<i><span lang=EN-US>i</span></i><sub><span
+lang=EN-US>4</span></sub>，<i><span lang=EN-US>i</span></i><sub><span
+lang=EN-US>8</span></sub>，<i><span lang=EN-US>i</span></i><sub><span
+lang=EN-US>15</span></sub>，<i><span lang=EN-US>i</span></i><sub><span
+lang=EN-US>6</span></sub>，<i><span lang=EN-US>i</span></i><sub><span
+lang=EN-US>10</span></sub><span lang=EN-US>|=7.</span>第<span lang=EN-US>2</span>个索引元素中满足该<span
+lang=EN-US>PID</span>且符合<span lang=EN-US>1</span>双拟关系的有<span lang=EN-US>{11}</span>。<span
+lang=EN-US>PID</span>集合中有一个<i><span lang=EN-US>pid</span></i>，代表节点<span
+lang=EN-US>11</span>的完全标签路径<span lang=EN-US>R.A.B.E.H.</span>那么在“<span
+lang=EN-US>H</span>”（<i><span lang=EN-US>iid</span></i><span lang=EN-US>=<i>i</i><sub>10</sub></span>）索引节点中符合<span
+lang=EN-US>1</span>双拟关系的有<span lang=EN-US>{11,13}.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US><img width=307 height=214 id="图片 54"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image013.jpg"></span></p>
+
+<p class=MsoNormal><span lang=EN-US><img width=305 height=284 id="图片 59"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image014.jpg"></span></p>
+
+<p class=MsoNormal style='text-indent:15.75pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:15.75pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:15.75pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:15.75pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:15.75pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:15.75pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:15.75pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:黑体'>&nbsp;&nbsp;
+</span><span style='font-size:10.5pt;font-family:黑体'>性质<span lang=EN-US> 1.</span></span><span
+lang=EN-US style='font-size:10.5pt;font-family:宋体'> </span><span lang=EN-US>&nbsp;</span><span
+style='font-size:10.5pt;font-family:宋体'>对于节点<i><span lang=EN-US>u</span></i>和<i><span
+lang=EN-US>v</span></i>，设其<i><span lang=EN-US>pid</span></i>分别为<i><span
+lang=EN-US>pid </span></i><sub><span lang=EN-US>u</span></sub>和<i><span
+lang=EN-US>pid</span></i><span lang=EN-US> <sub>v.</sub>,</span>如果<i><span
+lang=EN-US>u</span></i>是<i><span lang=EN-US>v</span></i>的后继，则<i><span
+lang=EN-US>pid </span></i><sub><span lang=EN-US>v.</span></sub>是<i><span
+lang=EN-US>pid</span></i><span lang=EN-US> <sub>u</sub></span>的前缀且<span
+lang=EN-US>|<i>pid </i><sub>u</sub>|=|<i>pid</i> <sub>v</sub>|+1.</span></span></p>
+
+<p class=MsoNormal style='text-indent:15.75pt'><span style='font-size:10.5pt;
+font-family:黑体'>性质 <span lang=EN-US>2.</span></span><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'> </span><span lang=EN-US
+style='font-size:10.5pt'>&nbsp;</span><span lang=EN-US>&nbsp;</span><span
+style='font-size:10.5pt;font-family:宋体'>设索引节点<span lang=EN-US>A</span>，对其任意一对元素<i><span
+lang=EN-US>e</span></i>和<i><span lang=EN-US>e</span></i><sup><span lang=EN-US>,</span></sup>，则它们的<i><span
+lang=EN-US>k+1</span></i>标签路径集合相同，即对于任意<i><span lang=EN-US>pid<span
+style='position:relative;top:2.0pt'><img width=13 height=13 id="Picture 1"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>e.</span></i><span
+lang=EN-US>PID</span>，<i><span lang=EN-US>pid</span></i><span lang=EN-US>=<i>iid</i><sub>1</sub></span>，<i><span
+lang=EN-US>iid</span></i><sub><span lang=EN-US>2</span></sub>…<i><span
+lang=EN-US>iid</span></i><sub><span lang=EN-US>n</span></sub>，存在<i><span
+lang=EN-US>pid</span></i><sup><span lang=EN-US>,,</span></sup><span lang=EN-US>
+<span style='position:relative;top:2.0pt'><img width=13 height=13 id="Picture 2"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span><i>e</i><sup>,</sup><i>.</i>PID</span>，<i><span
+lang=EN-US>pid</span></i><sup><span lang=EN-US>,</span></sup><span lang=EN-US>=<i>iid</i><sub>1</sub><sup>,</sup></span>，<i><span
+lang=EN-US>iid</span></i><sub><span lang=EN-US>2</span></sub><sup><span
+lang=EN-US>,</span></sup>…<i><span lang=EN-US>iid</span></i><sub><span
+lang=EN-US>m</span></sub><sup><span lang=EN-US>,</span></sup><span lang=EN-US>,</span>满足<span
+lang=EN-US><span style='position:relative;top:2.0pt'><img width=13 height=16
+id="Picture 3" src="计信本1班%20%20王彩冰201411010424%20论文.files/image015.png"></span><i>i</i><sub>1</sub>,<i>i</i><sub>2</sub>,<i>n-i</i><sub>1</sub>=<i>m-i</i><sub>2</sub>=<i>k</i></span>且对连续的<span
+lang=EN-US>i<sub>1</sub><sup>,</sup>=i<sub>1</sub>~n</span>和<span lang=EN-US>i<sub>2</sub><sup>,</sup>=i<sub>2</sub>~m</span>，有<i><span
+lang=EN-US>label_i</span></i>（<sub><span lang=EN-US>i1</span>’</sub>）<span
+lang=EN-US>= <i>label</i>_<i>i</i></span>（<i><span lang=EN-US>iid </span></i><sub><span
+lang=EN-US>i2</span>’</sub>），反之亦然<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:15.75pt'><span style='font-size:10.5pt;
+font-family:黑体'>性质<span lang=EN-US>3. </span></span><span lang=EN-US>&nbsp;</span><span
+lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;</span><span
+style='font-size:10.5pt;font-family:宋体'>对任意元素<i><span lang=EN-US>e</span></i>，其<i><span
+lang=EN-US>k+1</span></i>标签路径集合中元素小于或等于<i><span lang=EN-US>e.</span></i><span
+lang=EN-US>PID</span>的元素数量<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:15.75pt'><span style='font-size:10.5pt;
+font-family:宋体'>根据<span lang=EN-US>pid</span>以及<span lang=EN-US>k</span>双拟的定义，我们容易证明性质<span
+lang=EN-US>1~</span>性质<span lang=EN-US>3</span>，由于空间所限，证明略<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:15.75pt'><span style='font-size:10.5pt;
+font-family:黑体'>性质<span lang=EN-US>4.</span></span><span lang=EN-US
+style='font-family:宋体'> </span><span lang=EN-US>&nbsp;&nbsp;&nbsp;</span><span
+style='font-size:10.5pt;font-family:宋体'>给定索引节点<span lang=EN-US>A</span>和<span
+lang=EN-US>B</span>，索引元素<i><span lang=EN-US>e<span style='position:relative;
+top:2.0pt'><img width=13 height=13 id="Picture 4"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>ext</span></i>（<span
+lang=EN-US>A</span>）和<i><span lang=EN-US>e<sup>,</sup></span></i><span
+lang=EN-US> <span style='position:relative;top:2.0pt'><img width=13 height=13
+id="Picture 5" src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>&nbsp;<i>ext</i></span>（<span
+lang=EN-US>B</span>），则当满足如下条件时，<i><span lang=EN-US>e<sup>,</sup></span></i><span
+lang=EN-US>.Ne</span>中节点为<i><span lang=EN-US>e.</span></i><span lang=EN-US>Ne</span>中节点的后继：</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>(1)</span><span
+style='font-size:10.5pt;font-family:宋体'>对任意<i><span lang=EN-US>pid<span
+style='position:relative;top:2.0pt'><img width=13 height=13 id="Picture 6"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>e</span></i><span
+lang=EN-US>.PID</span>，存在<i><span lang=EN-US>pid</span></i><sup><span
+lang=EN-US>,</span></sup><span lang=EN-US> <span style='position:relative;
+top:2.0pt'><img width=13 height=13 id="Picture 7"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>&nbsp;<i>e<sup>,</sup></i>.PID</span>，使得<i><span
+lang=EN-US>pid</span></i>时<i><span lang=EN-US>pid</span></i><sup><span
+lang=EN-US>,</span></sup>的前缀且<span lang=EN-US>| <i>pid</i><sup>,</sup>|=|<i>pid</i>|+1.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>(2)</span><span
+style='font-size:10.5pt;font-family:宋体'>不存在索引元素<i><span lang=EN-US>e</span><sup>’’</sup></i>
+<span lang=EN-US><span style='position:relative;top:2.0pt'><img width=13
+height=13 id="Picture 8"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span><i>ext</i></span>（<span
+lang=EN-US>A</span>），使得<i><span lang=EN-US>e</span><sup>，，</sup></i>满足条件（<span
+lang=EN-US>1</span>）且<i><span lang=EN-US>e</span><sup>，，</sup></i><span
+lang=EN-US>.PID</span>集合元素个大大于<i><span lang=EN-US>e</span></i><span lang=EN-US>.PID.</span></span></p>
+
+<p class=MsoNormal><span style='font-size:10.5pt;font-family:宋体'>证明（必要性）。<span
+lang=EN-US>&nbsp; </span>首先，孩子的完全路径数量必然大于或等于父亲的完全标签路径数量。结合性质<span lang=EN-US>1</span>可得，如果<i><span
+lang=EN-US>e</span><sup>，</sup></i><span lang=EN-US>.Ne</span>中的节点为<i><span
+lang=EN-US>e</span></i><span lang=EN-US>.Ne</span>中节点的后继，则条件（<span lang=EN-US>1</span>）成立。根据性质<span
+lang=EN-US>2</span>和性质<span lang=EN-US>3</span>，同一索引节点中任意元素的<i><span
+lang=EN-US>k+1</span></i>标签路径集合是相同的，但<span lang=EN-US>PID</span>可不同，存在元素<span
+lang=EN-US>PID</span>之间的包含关系。那么如果存在<i><span lang=EN-US>e</span><sup>，，</sup></i>，其<span
+lang=EN-US>PID</span>与元素<i><span lang=EN-US>e</span><sup>，</sup></i>的<span
+lang=EN-US>PID</span>满足条件（<span lang=EN-US>1</span>），则对于<i><span lang=EN-US>e</span><sup>，，</sup></i>的<span
+lang=EN-US>PID</span>子集也必然满足条件（<span lang=EN-US>1</span>），因此条件（<span
+lang=EN-US>2</span>）成立<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>（充分性）<span lang=EN-US>.&nbsp; </span>采用反证法<span lang=EN-US>.</span>根据<span
+lang=EN-US>L(k)-index</span>定义可知，索引元素中节点的<span lang=EN-US>PID</span>相同，那么其父亲节点的<span
+lang=EN-US>PID</span>必然相同且属于同一个元素。如果条件（<span lang=EN-US>1</span>）和（<span
+lang=EN-US>2</span>）满足，设<span lang=EN-US>e<i><sup>,</sup></i>.Ne</span>中节点不是<span
+lang=EN-US>e.Ne</span>中节点的后继，即存在<i><span lang=EN-US>u<sup>,</sup></span></i><span
+lang=EN-US><span style='position:relative;top:2.0pt'><img width=13 height=13
+id="对象 44" src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span><i>e</i></span><i><sup>，</sup></i><span
+lang=EN-US>.Ne</span>为满足条件（<span lang=EN-US>1</span>）和（<span lang=EN-US>2</span>）的节点但其父亲<i><span
+lang=EN-US>u</span></i><span lang=EN-US><span style='position:relative;
+top:3.0pt'><img width=13 height=16 id="对象 45"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image016.png"></span><i>e</i>.N<i>e</i></span>，则<i><span
+lang=EN-US>u</span></i>的<span lang=EN-US>PID</span>必然与<i><span lang=EN-US>e</span></i><span
+lang=EN-US>.N<i>e</i></span>其他节点<span lang=EN-US>PID</span>相同，却不属于同一元素，与<span
+lang=EN-US>L(k)-index</span>定义相悖<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>证毕<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:黑体'>定理</span><b><span lang=EN-US style='font-size:10.5pt'>1.</span></b><span
+lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp; A(k)-index</span><span
+style='font-size:10.5pt;font-family:宋体'>相比，<span lang=EN-US>L(k)-index</span>空间复杂度平均增加了<span
+lang=EN-US>O(m)</span>，<i><span lang=EN-US>m</span></i>为索引节点平均完全标签路径数<span
+lang=EN-US>.</span></span></p>
+
+<p class=MsoBodyText style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>证明<span lang=EN-US>. </span>从<span lang=EN-US>L(k)-index</span>的定义可以看出，同<span
+lang=EN-US>A(k)-index</span>相比，每个索引节点仅仅增加了完全标签路径信息，索引节点数不变，因此<span lang=EN-US>L(k)-index</span>的空间复杂度平均增加了<span
+lang=EN-US>O(m).&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:10.5pt;font-family:宋体'>证毕</span><span lang=EN-US
+style='font-size:10.5pt'>.</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:黑体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:黑体'>3.3&nbsp;&nbsp; </span><span
+style='font-size:10.5pt;font-family:黑体'>查询处理</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-size:10.5pt;font-family:宋体'>给定查询路径<span lang=EN-US>Q</span>，在<span
+lang=EN-US>L(k)-index</span>上获得符合<span lang=EN-US>Q</span>的节点步骤如下：（<span
+lang=EN-US>1</span>）如果<span lang=EN-US>Q</span>长度不大于<i><span lang=EN-US>k+1</span></i>，则遍历<span
+lang=EN-US>L(k)-index</span>，查找所有符合<span lang=EN-US>Q</span>的路径，并将路径终端的索引节点中的节点返回即可；（<span
+lang=EN-US>2</span>）如果<span lang=EN-US>Q</span>的长度大于<i><span lang=EN-US>k+1</span></i>，则从<span
+lang=EN-US>Q</span>终端开始截取部分长度为<i><span lang=EN-US>k+1</span></i>标签路径<span
+lang=EN-US>Q</span><sup>，</sup>，遍历<span lang=EN-US>L(k)-index </span>，查找所有符合<span
+lang=EN-US>Q</span><sup>，</sup>索引节点，对索引节点中每个元素，利用其<span lang=EN-US>PID</span>验证是否符合<span
+lang=EN-US>Q</span>。对于查询返回结构中同一元素中的节点集合，可以根据其<span lang=EN-US>PID</span>逆向遍历索引所得到的路径为该集合中所有节点的完全标签路径集合。</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt'>&nbsp;&nbsp; </span><span
+style='font-size:10.5pt;font-family:黑体'>定理</span><span lang=EN-US
+style='font-size:10.5pt'>2</span><b><span lang=EN-US style='font-size:10.5pt'>.</span></b><span
+lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp; </span><span
+style='font-size:10.5pt;font-family:宋体'>对于任意长度的路径查询，<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+L(k)-index</span>是安全的和准确的</span></p>
+
+<p class=MsoBodyText style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-size:10.5pt;font-family:宋体'>证明<span lang=EN-US>.&nbsp;&nbsp;&nbsp; </span>显然，对于第一种情况，根据<span
+lang=EN-US>k</span>双拟关系定义，对于任意长度的路径查询，<span lang=EN-US>L(k)-index</span>是安全的和准确的。对于第<span
+lang=EN-US>2</span>种情况，首先<span lang=EN-US>Q</span><sup>，</sup>的长度小于<span
+lang=EN-US>Q</span>，则<span lang=EN-US>Q</span>的查询结果是查询<span lang=EN-US>Q</span><sup>，</sup>的子集，根据<span
+lang=EN-US>L(k)-index</span>定义，<i><span lang=EN-US>pid</span></i>代表了节点的完全路径，则经过验证，可以保证结果的准确<span
+lang=EN-US>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:10.5pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+style='font-size:10.5pt;font-family:宋体'>证毕</span><span lang=EN-US
+style='font-size:10.5pt'>.</span></p>
+
+<p class=MsoBodyText style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:黑体'>4&nbsp;&nbsp;&nbsp;
+L(k)-index</span><span style='font-size:14.0pt;font-family:黑体'>创建与更新</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:黑体'>4.1&nbsp;&nbsp;
+</span><span style='font-size:10.5pt;font-family:黑体'>索引创建</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-size:10.5pt;font-family:宋体'>同<span lang=EN-US>LA(k)-index</span>创建类似，<span
+lang=EN-US>L(k)-index</span>创建基本思想是通过分裂<span lang=EN-US>k</span>双拟索引节点来获得（<span
+lang=EN-US>k+1</span>）双拟，但<span lang=EN-US>L(k)-index</span>通过计算元素中节点集合的后继节点集合的方式，大大提高索引创建效率<span
+lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal><span style='font-size:10.5pt;font-family:黑体'>定理</span><span
+lang=EN-US style='font-size:10.5pt'>3</span><b><span lang=EN-US
+style='font-size:10.5pt'>.</span></b><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'>&nbsp;&nbsp; </span><span style='font-size:10.5pt;font-family:
+宋体'>给定<span lang=EN-US>L(k)-index</span>索引节点<span lang=EN-US>A</span>，则其后继节点集合<span
+lang=EN-US>Succ(A)={<i>u</i>|<i>u<span style='position:relative;top:2.0pt'><img
+width=13 height=13 id="对象 46"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>e.</i>N<i>e</i></span>，<i><span
+lang=EN-US>e<span style='position:relative;top:2.0pt'><img width=13 height=13
+id="对象 47" src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>ext<sup>I,</sup></span></i>（<span
+lang=EN-US>B</span>），索引节点<span lang=EN-US>B</span>是<span lang=EN-US>A</span>的后继且存在<i><span
+lang=EN-US>e</span><sup>，</sup><span lang=EN-US><span style='position:relative;
+top:2.0pt'><img width=13 height=13 id="对象 48"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>ext<sup>I</sup></span><sup>，</sup></i>（<span
+lang=EN-US>A</span>），使得<i><span lang=EN-US>e</span></i>和<i><span lang=EN-US>e</span><sup>，</sup></i>满足性质<span
+lang=EN-US>4}.</span></span></p>
+
+<p class=MsoBodyText style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-size:10.5pt;font-family:宋体'>证明<span lang=EN-US>. </span>根据定理<span
+lang=EN-US>2</span>可知，由于基于<i><span lang=EN-US>k</span></i>双拟的结构索引保持了原<span
+lang=EN-US>XML</span>所有的路径信息，也就是说结构索引是安全的。那么对于索引节点<span lang=EN-US>A</span>中的节点来说，其后继节点肯定存在于<span
+lang=EN-US>A</span>的后继索引节点的扩展集合中，结合性质<span lang=EN-US>4</span>，定理<span
+lang=EN-US>3</span>得证<span lang=EN-US>. </span></span><span style='font-size:
+10.5pt;font-family:宋体'>证毕</span><span lang=EN-US style='font-size:10.5pt'>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+L(k)-index</span><span style='font-size:10.5pt;font-family:宋体'>创建算法见算法<span
+lang=EN-US>1.</span>为了满足性质<span lang=EN-US>4</span>中的条件（<span lang=EN-US>2</span>），这里索引节点中的元素已按照<span
+lang=EN-US>PID</span>集合大小非递增排序，在步<span lang=EN-US>12~18</span>的分裂过程中，为新产生的索引节点赋予新的<i><span
+lang=EN-US>iid</span></i>，并且对新节点的扩展节点以及其所有后继节点的<i><span lang=EN-US>pid</span></i>进行依次更新。根据定理<span
+lang=EN-US>3</span>，只需更新分裂节点的后继节点即可。</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-size:10.5pt;font-family:黑体'>定理</span><span lang=EN-US
+style='font-size:10.5pt'>4</span><b><span lang=EN-US style='font-size:10.5pt'>.</span></b><span
+lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp; LK_Create</span><span
+style='font-size:10.5pt;font-family:宋体'>算法时间复杂度为<span lang=EN-US>O</span>（<i><span
+lang=EN-US>n+km</span></i>），其中<i><span lang=EN-US>n</span></i>为<span
+lang=EN-US>XML</span>节点数，<i><span lang=EN-US>m</span></i>为完全标签路径数<span
+lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-size:10.5pt;font-family:宋体'>证明<span lang=EN-US>.&nbsp;&nbsp;&nbsp;
+LK_Create</span>算法中计算<span lang=EN-US>0-bisimiliarity</span>为一次遍历，时间复杂度为<span
+lang=EN-US>O</span>（<i><span lang=EN-US>n</span></i>）。在分裂索引节点时，需要分裂的节点数最多为完全标签路径数<i><span
+lang=EN-US>m</span></i>且最多分裂<i><span lang=EN-US>k-1</span></i>次，时间复杂度为<span
+lang=EN-US>O</span>（<i><span lang=EN-US>km</span></i>），综上所述，<span lang=EN-US>
+LK_Create</span>算法的时间复杂度为<span lang=EN-US>O</span>（<i><span lang=EN-US>n+km</span></i>）<span
+lang=EN-US>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>证毕<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-size:10.5pt;font-family:黑体'>算法<span lang=EN-US>1.</span></span><span
+lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp; </span><span
+style='font-size:10.5pt;font-family:宋体'>索引创建算法<span lang=EN-US> LK_Create</span>（<span
+lang=EN-US>G</span>，<span lang=EN-US>k</span>）<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;</span><span
+style='font-size:10.5pt;font-family:宋体'>输入：</span><span lang=EN-US
+style='font-family:宋体'>Graph G and k</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;</span><span
+style='font-size:10.5pt;font-family:宋体'>输出：</span><span lang=EN-US
+style='font-family:宋体'>L(k)-index</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;1.&nbsp;&nbsp;
+</span><span lang=EN-US style='font-family:宋体'>initializ<span style='position:
+relative;top:5.0pt'><img width=15 height=16 id="对象 90"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image017.png"></span>as
+0-bisimiliarity&nbsp; partitions of G</span><span style='font-family:宋体'>，<span
+lang=EN-US>that is</span>，<span lang=EN-US>to partition the nodes of V<sub>n </sub>by
+label</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;2.&nbsp;&nbsp;
+</span><span lang=EN-US style='font-family:宋体'>FOR each X<span
+style='position:relative;top:2.0pt'><img width=13 height=13 id="对象 50"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span><span
+style='position:relative;top:5.0pt'><img width=15 height=16 id="对象 91"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image017.png"></span></span><span
+style='font-family:宋体'>，<span lang=EN-US>assign it with the unique iid</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;3.&nbsp;
+</span><span lang=EN-US style='font-family:宋体'>FOR</span><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'> </span><span lang=EN-US
+style='font-family:宋体'>each node of&nbsp; X,compute its PID
+and&nbsp;&nbsp;&nbsp;&nbsp; merge nodes with same PID to construct
+the&nbsp;&nbsp; element </span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>4.</span><span lang=EN-US
+style='font-family:宋体'>DO</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'>//i=1</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体'>5.</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'>&nbsp;&nbsp;&nbsp; </span><span lang=EN-US style='font-family:
+宋体'>FOR</span><span lang=EN-US style='font-size:10.5pt;font-family:宋体'> </span><span
+lang=EN-US style='font-family:宋体'>index nodes I and I</span><sup><span
+style='font-family:宋体'>，</span></sup><span lang=EN-US style='font-family:宋体'>in
+<span style='position:relative;top:5.0pt'><img width=15 height=16 id="对象 92"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image017.png"></span>&nbsp;no
+incident with arc</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体'>6.</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'>&nbsp;&nbsp;&nbsp; IF </span><span lang=EN-US style='font-family:
+宋体'>there exists e<span style='position:relative;top:2.0pt'><img width=13
+height=13 id="对象 53" src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>I
+and e</span><sup><span style='font-family:宋体'>，</span></sup><span lang=EN-US
+style='font-family:宋体'><span style='position:relative;top:2.0pt'><img width=13
+height=13 id="对象 54" src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>I</span><sup><span
+style='font-family:宋体'>，</span></sup><span lang=EN-US style='font-family:宋体'>satisfying
+the Property 4,THEN add the arc from I</span><sup><span style='font-family:
+宋体'>，</span></sup><span lang=EN-US style='font-family:宋体'> to I</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体'>7.</span><span lang=EN-US style='font-family:宋体'>&nbsp;&nbsp;
+<span style='position:relative;top:5.0pt'><img width=13 height=16 id="对象 94"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image018.png"></span>=a copy of <span
+style='position:relative;top:5.0pt'><img width=15 height=16 id="对象 93"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image017.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体'>8.</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'>&nbsp;&nbsp;&nbsp; </span><span lang=EN-US style='font-family:
+宋体'>FOR</span><span lang=EN-US style='font-size:10.5pt;font-family:宋体'> </span><span
+lang=EN-US style='font-family:宋体'>each index node X in <span style='position:
+relative;top:5.0pt'><img width=15 height=16 id="对象 95"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image017.png"></span>do</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体'>9.</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'>&nbsp;&nbsp;&nbsp; </span><span lang=EN-US style='font-family:
+宋体'>FOR</span><span lang=EN-US style='font-size:10.5pt;font-family:宋体'> </span><span
+lang=EN-US style='font-family:宋体'>each child Z of X do</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体'>10.</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'>&nbsp;&nbsp; </span><span lang=EN-US style='font-family:宋体'>FOR</span><span
+lang=EN-US style='font-size:10.5pt;font-family:宋体'> </span><span lang=EN-US
+style='font-family:宋体'>each element e in Z do</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体'>11.</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'>&nbsp;&nbsp; IF </span><span lang=EN-US style='font-family:
+宋体'>e satisfies THeorem 3</span><span style='font-family:宋体'>，<span lang=EN-US>append
+e into&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Succ</span>（<span lang=EN-US>X</span>）</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体'>12.</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'>&nbsp;&nbsp; </span><span lang=EN-US style='font-family:宋体'>FOR
+each Y in <span style='position:relative;top:5.0pt'><img width=13 height=17
+id="对象 58" src="计信本1班%20%20王彩冰201411010424%20论文.files/image019.png"></span>do
+//spilt</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>13.</span><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp; IF </span><span
+lang=EN-US style='font-family:宋体'>ext</span><span style='font-family:宋体'>（<span
+lang=EN-US>Y</span>）<span lang=EN-US><span style='position:relative;top:4.0pt'><img
+width=16 height=20 id="对象 59"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image020.png"></span>Succ</span>（<span
+lang=EN-US>X</span>）<span lang=EN-US><span style='position:relative;top:2.0pt'><img
+width=15 height=15 id="对象 60"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image021.png"></span>null </span></span><span
+lang=EN-US style='font-size:10.5pt;font-family:宋体'>THEN</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体'>14.</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'>&nbsp;&nbsp; </span><span lang=EN-US style='font-family:宋体'>A=ext</span><span
+style='font-family:宋体'>（<span lang=EN-US>Y</span>）<span lang=EN-US><span
+style='position:relative;top:4.0pt'><img width=16 height=20 id="对象 61"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image020.png"></span>Succ</span>（<span
+lang=EN-US>X</span>），<span lang=EN-US>B=ext</span>（<span lang=EN-US>Y</span>）<span
+lang=EN-US>-Succ</span>（<span lang=EN-US>X</span>）</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体'>15.</span><span lang=EN-US style='font-family:宋体'>&nbsp;
+Assign the identifier for B and update the PID</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>16.</span><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp; </span><span lang=EN-US
+style='font-family:宋体'>FOR</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'> the descendant Y</span><sup><span style='font-size:10.5pt;
+font-family:宋体'>，</span></sup><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'> of Y in<span style='position:relative;top:5.0pt'><img
+width=16 height=17 id="对象 62"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image022.png"></span>&nbsp;and <span
+style='position:relative;top:5.0pt'><img width=13 height=17 id="对象 63"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image019.png"></span>&nbsp;do</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体'>17.</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'>IF </span><span lang=EN-US style='font-family:宋体'>the pid in Y</span><sup><span
+style='font-family:宋体'>，</span></sup><span lang=EN-US style='font-family:宋体'>
+contains the pid in B</span><span style='font-family:宋体'>，<span lang=EN-US>update
+it</span></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体'>18.</span><span lang=EN-US style='font-family:宋体'>&nbsp;&nbsp;
+Replace Y by A and B</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体'>19.</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'>&nbsp;&nbsp; IF </span><span lang=EN-US style='font-family:
+宋体'>there was no spilt THEN break</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体'>20.</span><span lang=EN-US style='font-family:宋体'>&nbsp;&nbsp;
+<span style='position:relative;top:5.0pt'><img width=15 height=16 id="对象 87"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image017.png"></span>=a copy of <span
+style='position:relative;top:5.0pt'><img width=13 height=16 id="对象 88"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image018.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>21.</span><span lang=EN-US
+style='font-family:宋体'> WHILE</span><span style='font-family:宋体'>（<span
+lang=EN-US>i++&lt;=k</span>）</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>22.</span><span lang=EN-US
+style='font-family:宋体'>RETURN</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'> <span style='position:relative;top:5.0pt'><img width=15
+height=16 id="对象 89" src="计信本1班%20%20王彩冰201411010424%20论文.files/image017.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:黑体'>4.2&nbsp;
+</span><span style='font-size:10.5pt;font-family:黑体'>索引更新</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>4.2.1&nbsp;
+</span><span style='font-size:10.5pt;font-family:宋体'>合并与分裂</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>如果不考虑节点的引用弧，此时节点更新不会对原图节点的标签路径产生影响<span lang=EN-US>.</span>当插入新节点时，如果新节点与索引节点中的节点满足<span
+lang=EN-US>k</span>双拟关系，则将新节点添加到该索引节点中<span lang=EN-US>.</span>如果新节点与任意一个索引节点中的节点均不满足<span
+lang=EN-US>k</span>双拟关系，则创建新的索引节点，并添加新节点到新索引节点中<span lang=EN-US>.</span>当删除节点时，不是一般性，设被删除节点为叶子节点，则将节点从相应索引节点中删除即可。如果考虑到节点的引用弧，由于插入和删除后，原图其他节点的标签路径发生了变化，必须保证节点间亦然满足<span
+lang=EN-US>k</span>双拟关系。综上所述，无论节点是插入或是删除，对于原索引的更新操作可以归结为两个基本操作：索引节点合并和索引节点分裂<span
+lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>（1）</span><span style='font-size:10.5pt;
+font-family:宋体'>合并算法</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-size:10.5pt;font-family:宋体'>根据<span lang=EN-US>k</span>双拟的定义和性质，如果来个索引节点可以合并，则索引节点中的节点必须具有相同的<span
+lang=EN-US>k+1</span>标签路径<span lang=EN-US>.</span>索引节点合并算法如下<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;</span><span
+lang=EN-US style='font-size:10.5pt;font-family:黑体'>&nbsp; </span><span
+style='font-size:10.5pt;font-family:黑体'>算法<span lang=EN-US>2.</span></span><span
+lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp; </span><span
+style='font-size:10.5pt;font-family:宋体'>索引节点合并<span lang=EN-US>Index Node Merge</span>（<span
+lang=EN-US>I<sub>1</sub></span>，<span lang=EN-US>I<sub>2</sub></span>，<span
+lang=EN-US>k</span>）<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp; </span><span style='font-size:
+10.5pt;font-family:宋体'>输入：</span><span lang=EN-US style='font-family:宋体'>Index
+node I<sub>1</sub></span><span style='font-family:宋体'>，<span lang=EN-US>I<sub>2</sub></span>，<span
+lang=EN-US>and <i>k</i></span></span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'>&nbsp; </span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp; </span><span style='font-size:
+10.5pt;font-family:宋体'>输出：</span><span lang=EN-US style='font-family:宋体'>Merged
+index node I<sub>1</sub></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:18.0pt'><span lang=EN-US
+style='font-family:宋体'>1. </span><span lang=EN-US style='font-family:宋体'>Constructing
+the label path sets P<sub>1 </sub>and P<sub>2</sub> by the pid of elements of I<sub>1
+</sub>and I<sub>2 </sub>respectively.</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:18.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>2. </span><span lang=EN-US
+style='font-family:宋体'>&nbsp;FOR each label path p<span style='position:relative;
+top:2.0pt'><img width=13 height=13 id="对象 67"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>P<sub>1</sub></span><span
+style='font-family:宋体'>，</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>3. </span><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;IF </span><span lang=EN-US
+style='font-family:宋体'>there exists p</span><sup><span style='font-family:宋体'>，</span></sup><span
+lang=EN-US style='font-family:宋体'><span style='position:relative;top:2.0pt'><img
+width=13 height=13 id="对象 68"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>P<sub>2 </sub>satisfying
+p and p</span><sup><span style='font-family:宋体'>，</span></sup><span lang=EN-US
+style='font-family:宋体'>have the identical k-label path</span><span
+style='font-family:宋体'>，<span lang=EN-US>vice versa</span>，</span><span
+lang=EN-US style='font-size:10.5pt;font-family:宋体'>THEN</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:21.0pt'><span lang=EN-US
+style='font-family:宋体'>4. </span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'>&nbsp;&nbsp;</span><span lang=EN-US style='font-family:宋体'>append
+the elements of I<sub>2 </sub>into I<sub>1 </sub>and RETURN I<sub>1</sub></span><span
+style='font-family:宋体'>；</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>5. </span><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;</span><span lang=EN-US
+style='font-family:宋体'>ELSE RETURN NULL</span><span style='font-size:10.5pt;
+font-family:宋体'>；</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>（<span lang=EN-US>2</span>）分裂算法</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp; </span><span style='font-size:
+10.5pt;font-family:宋体'>在一个索引<span lang=EN-US>L</span>上，如果添加或删除一个引用关系<span
+lang=EN-US>&lt;u,v&gt;</span>，由于节点<span lang=EN-US>v</span>的标签路径增加或者减少，均会导致索引节点分裂<span
+lang=EN-US>.</span>具体分裂算法见算法<span lang=EN-US>3.</span>算法利用性质<span lang=EN-US>2</span>作为判断分裂的结束条件之一。当一个节点不需要分裂时，显然其后继节点也无须分裂<span
+lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:黑体'>算法<span lang=EN-US>3.</span></span><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp; </span><span style='font-size:
+10.5pt;font-family:宋体'>索引节点分裂<span lang=EN-US>SplitIndex</span>（<span
+lang=EN-US>L</span>，<span lang=EN-US>&lt;u</span>，<span lang=EN-US>v&gt;</span>）<span
+lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>输入：</span><span lang=EN-US style='font-family:宋体'>Index L and
+the are &lt;u</span><span style='font-family:宋体'>，<span lang=EN-US>v&gt;</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>输出：</span><span lang=EN-US style='font-family:宋体'>Split index L</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:21.0pt'><span lang=EN-US
+style='font-family:宋体'>1.</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'> </span><span lang=EN-US style='font-family:宋体'>let depth be
+the global variable</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:18.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>2.</span><span lang=EN-US
+style='font-family:宋体'> let S be the set of split index node</span><span
+lang=EN-US style='font-size:10.5pt;font-family:宋体'> </span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>3.</span><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'> IF</span><span lang=EN-US
+style='font-family:宋体'>++depth&gt;k</span><span lang=EN-US style='font-size:
+10.5pt;font-family:宋体'> THEN </span><span lang=EN-US style='font-family:宋体'>return</span><span
+style='font-size:10.5pt;font-family:宋体'>；</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:21.0pt'><span lang=EN-US
+style='font-family:宋体'>4.</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'> </span><span lang=EN-US style='font-family:宋体'>Search the
+elements e and e</span><sup><span style='font-family:宋体'>，</span></sup><span
+lang=EN-US style='font-family:宋体'>containing u and v respectively</span><span
+style='font-family:宋体'>，<span lang=EN-US>where e<span style='position:relative;
+top:2.0pt'><img width=13 height=13 id="对象 69"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>ext<sup>L</sup></span>（<span
+lang=EN-US>A</span>），<span lang=EN-US>e</span><sup>，</sup><span lang=EN-US><span
+style='position:relative;top:2.0pt'><img width=13 height=13 id="对象 70"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image008.png"></span>ext<sup>L</sup></span>（<span
+lang=EN-US>B</span>）；</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:18.0pt'><span lang=EN-US
+style='font-family:宋体'>5.</span><span lang=EN-US style='font-family:宋体'> Update
+the PID of v according to the PID of u</span><span style='font-family:宋体'>；</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:21.0pt'><span lang=EN-US
+style='font-family:宋体'>6.</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'> IF </span><span lang=EN-US style='font-family:宋体'>Property 2
+isn</span><span style='font-family:宋体'>’<span lang=EN-US>t satisfied with
+respect to the PID of v and the PID of the others nodes in e</span><sup>，</sup><span
+lang=EN-US>.Ne</span></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>7.</span><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'> </span><span lang=EN-US
+style='font-family:宋体'>Create new index node I</span><span style='font-family:
+宋体'>，<span lang=EN-US>and append the element consisting of v and its updated
+PID into I</span>；</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:21.0pt'><span lang=EN-US
+style='font-family:宋体'>8.</span><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体'> </span><span lang=EN-US style='font-family:宋体'>add the arc
+from A to I</span><span style='font-family:宋体'>；<span lang=EN-US>delete the
+node v in e</span><sup>，</sup>；<span lang=EN-US>v<span style='position:relative;
+top:3.0pt'><img width=20 height=15 id="对象 71"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image007.png"></span>u</span>，<span
+lang=EN-US>the child of v<span style='position:relative;top:3.0pt'><img
+width=20 height=15 id="对象 72"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image007.png"></span>v</span>；</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:18.0pt'><span lang=EN-US
+style='font-family:宋体'>9.</span><span lang=EN-US style='font-family:宋体'> add
+the arc from I to the index node of v and update the PID of the descendants of
+I</span><span style='font-family:宋体'>；</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:18.0pt'><span lang=EN-US
+style='font-family:宋体'>10.</span><span lang=EN-US style='font-family:宋体'> add
+the I into S</span><span style='font-family:宋体'>；<span lang=EN-US>SplitIndex</span>（<span
+lang=EN-US>L</span>，<span lang=EN-US>&lt;u</span>，<span lang=EN-US>v&gt;</span>）；</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:18.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>11.</span><span lang=EN-US
+style='font-family:宋体'>RETURN S</span><span style='font-family:宋体'>；</span><span
+lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-size:10.5pt;font-family:宋体'>证毕<span lang=EN-US>.&nbsp;&nbsp;&nbsp;
+</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:黑体'>定理</span><span lang=EN-US style='font-size:10.5pt'>5</span><b><span
+lang=EN-US style='font-size:10.5pt'>.</span></b><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'> </span><span style='font-size:10.5pt;
+font-family:宋体'>给定一个<span lang=EN-US>L(k)-index</span>，当添加或删除一个引用关系<span
+lang=EN-US>&lt;u</span>，<span lang=EN-US>v&gt;</span>时，索引节点<span lang=EN-US>A</span>中节点<span
+lang=EN-US>v</span>与<span lang=EN-US>A</span>中其他节点不满足<i><span lang=EN-US>k</span></i>双拟关系，则自索引节点<span
+lang=EN-US>A</span>起最大分裂深度为<i><span lang=EN-US>k.</span></i>设需要分裂的索引节点<span
+lang=EN-US>B</span>，则<span lang=EN-US>A</span>与<span lang=EN-US>B</span>构成的路径长度不大于<i><span
+lang=EN-US>k.</span></i></span></p>
+
+<p class=MsoBodyText style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>证明<span lang=EN-US>.&nbsp; </span>根据<i><span lang=EN-US>k</span></i>双拟关系的定义，只要以节点为中点，长度为<i><span
+lang=EN-US>k</span></i>的路径上节点标签路径不发生变化，则该节点的<i><span lang=EN-US>k</span></i>双拟关系不变，因此当深度大于<i><span
+lang=EN-US>k</span></i>时，索引节点中的节点双拟关系不变<span lang=EN-US>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.5pt;font-family:宋体'>证毕</span><span
+lang=EN-US style='font-size:10.5pt'>.</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:黑体'>定理</span><span lang=EN-US style='font-size:10.5pt'>6</span><b><span
+lang=EN-US style='font-size:10.5pt'>.</span></b><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp; </span><span
+style='font-size:10.5pt;font-family:宋体'>算法<span lang=EN-US>SplitIndex</span>的时间复杂度与<span
+lang=EN-US>k</span>成证毕，即<span lang=EN-US>O</span>（<i><span lang=EN-US>k</span></i>）<span
+lang=EN-US>.</span></span></p>
+
+<p class=MsoBodyText style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>证明<span lang=EN-US>.&nbsp;&nbsp; </span>根据<span lang=EN-US>k</span>双拟关系定义，只要以节点为终点，长苏为<span
+lang=EN-US>k</span>的路径上节点标签路径不发生变化，则该节点<i><span lang=EN-US>k</span></i>双拟关系不变，因此当深度大于<i><span
+lang=EN-US>k</span></i>时，索引节点中的节点双拟关系不变<span lang=EN-US>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:10.5pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+style='font-size:10.5pt;font-family:宋体'>证毕</span><span lang=EN-US
+style='font-size:10.5pt'>.</span></p>
+
+<p class=MsoBodyText style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>4.2.2&nbsp;
+</span><span style='font-size:10.5pt;font-family:宋体'>节点插入</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>如果按照节点插入次序，一次对索引更新，则对于<i><span lang=EN-US>n</span></i>个插入节点，索引更新的时间复杂度为<span
+lang=EN-US>O</span>（<i><span lang=EN-US>cnm</span></i>），<i><span lang=EN-US>c</span></i>为定位节点、创建索引节点和索引合并的时间复杂度，<i><span
+lang=EN-US>m</span></i>为原索引节点数。在批量更新时，<i><span lang=EN-US>n</span></i>通常会非常大，其运行时间仍然很长。本文提出“对增量建索引，然后合并”的策略，可以将更新时间复杂度降低到<span
+lang=EN-US>O</span>（<i><span lang=EN-US>n+km</span></i>，<i><span lang=EN-US>m</span></i><span
+lang=EN-US>),m</span><sup>，</sup>为增量索引节点数目，一般<i><span lang=EN-US>m</span></i><sup>，</sup><span
+lang=EN-US>&lt;&lt;<i>n.</i></span>主要思想为：首先忽略增量数据对原数据的引用，对增量数据创建索引，将原索引与增量索引合并<span
+lang=EN-US>.</span>其次，在合并索引的基础上，对所有新添加的弧<span lang=EN-US>&lt;<i>u</i></span>，<i><span
+lang=EN-US>v</span></i><span lang=EN-US>&gt;</span>，当<i><span lang=EN-US>v</span></i>与索引节点中其他节点不再满足<i><span
+lang=EN-US>k</span></i>双拟时，将节点<i><span lang=EN-US>v</span></i>分裂，并对节点<i><span
+lang=EN-US>v</span></i>的孙子节点判断是否需要分裂，直至孙子节点与<i><span lang=EN-US>v</span></i>的层数相差大于<span
+lang=EN-US>k</span>或不产生分裂位置（见定理<span lang=EN-US>5</span>）<span lang=EN-US>.</span>最后，在分裂后的索引上，对所有索引节点进行依次合并。索引跟新算法如算法<span
+lang=EN-US>4</span>和算法<span lang=EN-US>5</span>所示<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:黑体'>算法<span lang=EN-US>4.</span></span><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp; </span><span style='font-size:
+10.5pt;font-family:宋体'>索引增加<span lang=EN-US>IncremenIns</span>（<span
+lang=EN-US>L</span>，<span lang=EN-US>G</span><sup>，</sup>）。</span></p>
+
+<p class=MsoNormal style='text-indent:18.0pt'><span style='font-family:宋体'>输入：</span><span
+lang=EN-US style='font-family:宋体'>index L and update graph G</span><sup><span
+style='font-family:宋体'>，</span></sup></p>
+
+<p class=MsoNormal style='text-indent:18.0pt'><span style='font-family:宋体'>输出：</span><span
+lang=EN-US style='font-family:宋体'>update index L</span><sup><span
+style='font-family:宋体'>，</span></sup></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:18.0pt'><span lang=EN-US
+style='font-family:宋体'>1.</span><span lang=EN-US style='font-family:宋体'>L</span><sup><span
+style='font-family:宋体'>，<span lang=EN-US><span style='position:relative;
+top:3.0pt'><img width=19 height=15 id="对象 96"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image023.png"></span></span></span></sup><span
+lang=EN-US style='font-family:宋体'>LK_Create(G</span><sup><span
+style='font-family:宋体'>，</span></sup><span style='font-family:宋体'>，<span
+lang=EN-US>k)</span>；</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:18.0pt'><span lang=EN-US
+style='font-family:宋体'>2.</span><span lang=EN-US style='font-family:宋体'>L<sup><span
+style='position:relative;top:3.0pt'><img width=19 height=15 id="对象 97"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image023.png"></span></sup>MergeIndex(L</span><span
+style='font-family:宋体'>，<span lang=EN-US>L</span><sup>，</sup><span lang=EN-US>)</span>；</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:18.0pt'><span lang=EN-US
+style='font-family:宋体'>3.</span><span lang=EN-US style='font-family:宋体'>FOR
+each new arc &lt;u</span><span style='font-family:宋体'>，<span lang=EN-US>v&gt;</span>，<span
+lang=EN-US>where u<span style='position:relative;top:2.0pt'><img width=12
+height=12 id="对象 98" src="计信本1班%20%20王彩冰201411010424%20论文.files/image005.png"></span>G</span>，<span
+lang=EN-US>v<span style='position:relative;top:2.0pt'><img width=12 height=12
+id="对象 99" src="计信本1班%20%20王彩冰201411010424%20论文.files/image005.png"></span>G</span><sup>，</sup>，<span
+lang=EN-US>do</span></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:18.0pt'><span lang=EN-US
+style='font-family:宋体'>4.</span><span lang=EN-US style='font-family:宋体'>S=S<span
+style='position:relative;top:4.0pt'><img width=15 height=19 id="对象 100"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image003.png"></span>SplitIndex</span><span
+style='font-family:宋体'>（<span lang=EN-US>L</span>，<span lang=EN-US>&lt;u</span>，<span
+lang=EN-US>v&gt;</span>）；</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:18.0pt'><span lang=EN-US
+style='font-family:宋体'>5.</span><span lang=EN-US style='font-family:宋体'>FOR
+eachsplit index node I<span style='position:relative;top:2.0pt'><img width=12
+height=12 id="对象 101" src="计信本1班%20%20王彩冰201411010424%20论文.files/image005.png"></span>S</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:18.0pt'><span lang=EN-US
+style='font-family:宋体'>6.</span><span lang=EN-US style='font-family:宋体'>FOR
+each index node I</span><sup><span style='font-family:宋体'>，</span></sup><span
+lang=EN-US style='font-family:宋体'><span style='position:relative;top:2.0pt'><img
+width=11 height=11 id="对象 102"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image024.png"></span>L.IV-S</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:18.0pt'><span lang=EN-US
+style='font-family:宋体'>7.</span><span lang=EN-US> IF </span><span
+style='font-family:宋体'>（<span lang=EN-US>IndexNodeMerge</span>（<span
+lang=EN-US>I<sub>1</sub></span>，<span lang=EN-US>I<sub>2</sub></span>，<span
+lang=EN-US>k</span>）<span lang=EN-US>!=NULL</span>）<span lang=EN-US>break</span>；</span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:18.0pt'><span lang=EN-US
+style='font-family:宋体'>8.</span><span lang=EN-US style='font-family:宋体'>RETURN
+L</span><span style='font-family:宋体'>；</span></p>
+
+<p class=MsoNormal style='text-indent:18.0pt'><span style='font-family:宋体'>算法</span><span
+lang=EN-US>5.&nbsp; </span><span style='font-family:宋体'>索引合并</span><span
+lang=EN-US>MergeIndex</span><span style='font-family:宋体'>（</span><span
+lang=EN-US>L<sub>1</sub></span><span style='font-family:宋体'>，</span><span
+lang=EN-US>L<sub>2</sub></span><span style='font-family:宋体'>）</span><span
+lang=EN-US>.</span></p>
+
+<p class=MsoNormal style='text-indent:18.0pt'><span style='font-family:宋体'>输入：</span><span
+lang=EN-US style='font-family:宋体'>Index L<sub>1</sub></span><span
+style='font-family:宋体'>，<span lang=EN-US>L<sub>2</sub></span></span></p>
+
+<p class=MsoNormal style='text-indent:18.0pt'><span style='font-family:宋体'>输出：</span><span
+lang=EN-US style='font-family:宋体'>Merge index L<sub>1</sub></span></p>
+
+<p class=MsoNormal style='text-indent:18.0pt'><span lang=EN-US>1.</span><span
+lang=EN-US style='font-family:宋体'>FOR each index node I in L<sub>2</sub></span></p>
+
+<p class=MsoNormal style='text-indent:18.0pt'><span lang=EN-US>2.</span><span
+lang=EN-US style='font-family:宋体'>locate the index nodes X with the same label
+of I</span></p>
+
+<p class=MsoNormal style='text-indent:18.0pt'><span lang=EN-US>3.</span><span
+lang=EN-US style='font-family:宋体'>FOR each I</span><sup><span style='font-family:
+宋体'>，</span></sup><span lang=EN-US style='font-family:宋体'><span
+style='position:relative;top:2.0pt'><img width=12 height=12 id="对象 103"
+src="计信本1班%20%20王彩冰201411010424%20论文.files/image005.png"></span>X</span></p>
+
+<p class=MsoNormal style='text-indent:18.0pt'><span lang=EN-US>4.&nbsp; IF</span><span
+style='font-family:宋体'>（<span lang=EN-US>IndexNodeMerge</span>（<span
+lang=EN-US>I</span><sup>，</sup>，<span lang=EN-US>I</span>，<span lang=EN-US>k</span>））<span
+lang=EN-US>!=NULL</span>）</span></p>
+
+<p class=MsoNormal style='text-indent:18.0pt'><span lang=EN-US>5.&nbsp;&nbsp; </span><span
+lang=EN-US style='font-family:宋体'>Update the PID of the elements and their
+descendants</span><span style='font-family:宋体'>；</span></p>
+
+<p class=MsoNormal style='text-indent:18.0pt'><span lang=EN-US>6.&nbsp;&nbsp; </span><span
+lang=EN-US style='font-family:宋体'>beak</span><span style='font-family:宋体'>；</span></p>
+
+<p class=MsoNormal style='text-indent:18.0pt'><span lang=EN-US>7.</span><span
+lang=EN-US style='font-family:宋体'>RETURN L<sub>1</sub></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:黑体'>定理</span><span lang=EN-US style='font-size:10.5pt'>7</span><b><span
+lang=EN-US style='font-size:10.5pt'>.</span></b><span lang=EN-US>&nbsp;&nbsp; </span><span
+lang=EN-US style='font-size:10.5pt;font-family:宋体'>MergeIndex</span><span
+style='font-size:10.5pt;font-family:宋体'>算法的时间复杂度为<span lang=EN-US>O</span>（<i><span
+lang=EN-US>kmm</span><sup>，</sup></i>），<i><span lang=EN-US>m</span></i>，<i><span
+lang=EN-US>m</span><sup>，</sup></i>分别为原索引和增量索引中的索引节点数<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>证明<span lang=EN-US>.&nbsp;&nbsp; </span>显然，<span lang=EN-US>IndexNodeMerge</span>时间复杂度为<span
+lang=EN-US>O</span>（<i><span lang=EN-US>k</span></i>），则对于<i><span lang=EN-US>m</span><sup>，</sup></i>个增量索引节点在<span
+lang=EN-US>m</span>个原索引节点中判断合并的时间复杂度在最差情况下为<span lang=EN-US>O</span>（<i><span
+lang=EN-US>mm</span><sup>，</sup></i>），因此<span lang=EN-US>MergeIndex</span>算法的时间复杂度为<span
+lang=EN-US>O</span>（<i><span lang=EN-US>kmm</span><sup>，</sup></i>）<span
+lang=EN-US>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>证毕<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:黑体'>定理</span><span lang=EN-US style='font-size:10.5pt'>8</span><b><span
+lang=EN-US style='font-size:10.5pt'>.</span></b><span lang=EN-US>&nbsp; </span><span
+style='font-size:10.5pt;font-family:宋体'>算法<span lang=EN-US>IncrementIns</span>的时间复杂度为<span
+lang=EN-US>O</span>（<i><span lang=EN-US>n+kmm</span><sup>，</sup></i>），其中<i><span
+lang=EN-US>n</span></i>为增量数据中节点个数，<i><span lang=EN-US>m</span></i>、<i><span
+lang=EN-US>m</span><sup>，</sup></i>分别为原索引和增量索引中的索引节点数<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>证明<span lang=EN-US>.&nbsp;&nbsp;&nbsp; </span>算法<span
+lang=EN-US>IncrementIns</span>中<span lang=EN-US>LK_Create</span>的事件负责度为<span
+lang=EN-US>O</span>（<i><span lang=EN-US>n</span></i><span lang=EN-US>+(<i>k-1</i>)<i>m</i></span><i><sup>，</sup></i>）（定理<span
+lang=EN-US>4</span>），<span lang=EN-US>MergeIndex</span>的时间复杂度为<span lang=EN-US>O</span>（<i><span
+lang=EN-US>kmm</span><sup>，</sup></i>）（定理<span lang=EN-US>7</span>），由于<span
+lang=EN-US>SplitIndex</span>的时间复杂度为<span lang=EN-US>O</span>（<i><span
+lang=EN-US>k</span></i>）（定理<span lang=EN-US>6</span>），则对于<span lang=EN-US>c<sub>1</sub></span>个新弧，步<span
+lang=EN-US>3~4</span>的时间复杂度为<span lang=EN-US>O</span>（<i><span lang=EN-US>c<sub>1</sub>k</span></i>），由于<span
+lang=EN-US>IndexNode-Merge</span>的时间复杂度为<span lang=EN-US>O</span>（<span
+lang=EN-US>k</span>），则对于<i><span lang=EN-US>c<sub>2</sub></span></i>个需要合并的节点，步<span
+lang=EN-US>5~7</span>的时间复杂度为<span lang=EN-US>O</span>（<i><span lang=EN-US>c<sub>2</sub>k</span></i>），综上所述，算法<span
+lang=EN-US>IncrementIns</span>的时间复杂度为<span lang=EN-US>O</span>（<i><span
+lang=EN-US>n</span></i><span lang=EN-US>+</span>（<i><span lang=EN-US>k-1</span></i>）<i><span
+lang=EN-US>m</span><sup>，</sup></i><span lang=EN-US>+<i>kmm</i></span><i><sup>，</sup></i><span
+lang=EN-US>+<i>k</i></span>（<i><span lang=EN-US>c<sub>1</sub>+c<sub>2</sub></span></i>）），又因<i><span
+lang=EN-US>k</span></i>，<i><span lang=EN-US>c<sub>1</sub></span></i>和<i><span
+lang=EN-US>c<sub>2</sub></span></i>可看作常熟，则算法<span lang=EN-US>IncrementIns</span>的时间复杂度为<span
+lang=EN-US>O</span>（<i><span lang=EN-US>n+kmm</span><sup>，</sup></i>）<span
+lang=EN-US>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>证毕<span lang=EN-US>.</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>4.2.3&nbsp; </span><span
+style='font-size:10.5pt;font-family:宋体'>节点删除</span></p>
+
+<p class=MsoNormal><span style='font-size:10.5pt;font-family:宋体;color:red'>附加：老师，我在两周内完成了不到七页，但内容完全是按照您给的论文打出来的，除了图是截图之外，此外，无论是英文还是公式符号，真的一个字都没有复制，希望老师相信我。而且在交论文的前一天晚上仍在打字。通过写这篇论文（虽然是抄的），但这篇论文的大体结构还是有所了解的。有可能我的这篇论文形式还是有错误，希望老师在检查时，能给标红，并且我下次再写的时候一定会改，谢谢老师。</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:10.5pt;font-family:宋体'>&nbsp;</span></p>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:宋体'><br clear=all>
+</span>
+
+<p class=MsoNormal></p>
+<table width="100" border="0">
+  <tr>
+    <td width="50%" height="41">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="index.html"> <img border="0" src="images/返回主页.gif" align="baseline" alt="返回主页" width="80" height="78"></a>
+    <a href="index.html"><font size="3">返回主页</font></a>
+    </td>
+    <td width="50%" height="41">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td width="50%" height="41">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td width="50%" height="1"><a href="#top">
+<img border="0" src="images/返回页首.gif" align="middle" alt="返回页首" width="32" height="32"></a>
+<a href="#top"><font size="3">返回页首</font></a> 
+</td>
+  </tr>
+</table>
+
+
+
+
+</body>
+
+</html>
